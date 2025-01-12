@@ -7,7 +7,7 @@ interface DescriptionTextProps {
 
 const DescriptionText: React.FC<DescriptionTextProps> = ({ children, className = '' }) => {
     return (
-        <p className={`text-[1.4rem] text-primary mt-[1rem] ${className}`}>
+        <p className={`text-[1.8rem] text-primary mt-[1rem] ${className}`}>
             {children}
         </p>
     );
