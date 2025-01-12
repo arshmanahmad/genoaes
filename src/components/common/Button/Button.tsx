@@ -16,7 +16,7 @@ const Button: React.FC<ButtonProps> = ({ text, icon, variant, outlined = false, 
         : 'bg-primary text-white hover:bg-blue-600';
     const secondaryStyles = outlined
         ? 'border border-[#000] text-[#000] hover:bg-gray-500 hover:[#000]'
-        : 'bg-secondary text-white hover:bg-gray-600';
+        : 'bg-secondary text-[#000] hover:bg-gray-600';
 
     const buttonStyles = variant === 'primary' ? primaryStyles : secondaryStyles;
 

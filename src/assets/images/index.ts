@@ -9,6 +9,12 @@ import Sequia from './logos/Layer_1.svg';
 import GeorgeUni from './logos/Vector (1).svg';
 import GenovaUni from './logos/Layer 2.svg';
 import RightHeadedArrow from './logos/Vector (2).svg';
+import ProfessorVideo from '../videos/ProfessorVideo.mp4';
+import Random from './background/Rectangle.png';
+import RightHeadedCurveWhite from'./logos/Vector (3).svg';
+import RightHeadedWhite from './logos/arrow-right-line.svg'
+
+
 export {
     Genoaes,
     Union,
@@ -20,5 +26,9 @@ export {
     Meta,
     GeorgeUni,
     GenovaUni,
-    RightHeadedArrow
+    RightHeadedArrow,
+    ProfessorVideo,
+    Random,
+    RightHeadedCurveWhite,
+    RightHeadedWhite
 };
